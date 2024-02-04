@@ -40,13 +40,11 @@
               <Heroicons.information_circle class="w-6 h-6 text-white" />
             </span>
             <p class="ml-3 font-medium text-white truncate">
-              Phoenix <%= @phoenix_ver %> and Elixir <%= @elixir_ver %>
             </p>
           </div>
           <div class="mt-2 order-3 w-full sm:mt-0 sm:w-auto">
             <div class="rounded-md shadow-sm">
               <span class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-gray-500">
-                RUN_MODE = <%= @run_mode %>
               </span>
             </div>
           </div>
@@ -57,22 +55,5 @@
     <main class="max-w-screen-lg mx-auto mb-auto">
       <%= @inner_content %>
     </main>
-
-    <footer class="text-center mt-6 pb-6 h-10">
-      <p class="text-gray-500">
-        <a
-          class="border-b mb-1"
-          href="https://github.com/nickjj/docker-phoenix-example"
-        >
-          Coded
-        </a>
-        with
-        <Heroicons.heart class="h-5 w-5 text-red-600 inline" stroke-width="2" />
-        by
-        <a class="border-b mb-1" href="https://nickjanetakis.com">
-          Nick Janetakis
-        </a>
-      </p>
-    </footer>
   </body>
 </html>
